@@ -1,95 +1,80 @@
+/* Reset margin and padding for all elements */
 * {
     margin: 0px;
     padding: 0px;
 }
 
-
-
-
-body{
-    background: #a8c0ff;
-        /* fallback for old browsers */
-        background: -webkit-linear-gradient(to bottom, #3f2b96, #a8c0ff);
-        /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to bottom, #3f2b96, #a8c0ff);
-        overflow: hidden;
-        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+/* Body styling with a gradient background */
+body {
+    background: #a8c0ff; /* Fallback background color */
+    background: -webkit-linear-gradient(to bottom, #3f2b96, #a8c0ff); /* Gradient for older WebKit browsers */
+    background: linear-gradient(to bottom, #3f2b96, #a8c0ff); /* Modern gradient */
+    overflow: hidden; /* Prevent scrolling */
 }
 
-.searching{
-    background:#0083B0;
-        /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
-        /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #0083B0, #00B4DB);
-        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-    border: 1px solid #6a6f73;
-    border-radius:14px;
-    width: 490px;
-    height: 590px;
-    margin-left: 550px;
-    margin-top: 40px;
-    padding: 40px;
-    padding-left: 140px;
+/* Styling for the main container (searching box) */
+.searching {
+    background: #0083B0; /* Fallback background color */
+    background: -webkit-linear-gradient(to right, #0083B0, #00B4DB); /* Gradient for older WebKit browsers */
+    background: linear-gradient(to right, #0083B0, #00B4DB); /* Modern gradient */
+    border: 1px solid #6a6f73; /* Border with gray shade */
+    border-radius: 14px; /* Rounded corners */
+    width: 490px; /* Box width */
+    height: 590px; /* Box height */
+    margin-left: 550px; /* Horizontal centering */
+    margin-top: 40px; /* Spacing from the top */
+    padding: 40px; /* Inner padding */
+    padding-left: 140px; /* Extra left padding */
 }
 
-
-
-input{
-    width: 90px;
-    height: 40px;
-    background: #f12711;
-        /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #f5af19, #f12711);
-        /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #f5af19, #f12711);
-    
-    font-family: 'Geologica';
-    font-size: 16px;
-    border: 1px solid #f5af19;
-
+/* Styling for input elements (buttons or fields) */
+input {
+    width: 90px; /* Button/field width */
+    height: 40px; /* Button/field height */
+    background: #f12711; /* Fallback background color */
+    background: -webkit-linear-gradient(to left, #f5af19, #f12711); /* Gradient for older WebKit browsers */
+    background: linear-gradient(to left, #f5af19, #f12711); /* Modern gradient */
+    font-family: 'Geologica'; /* Font family */
+    font-size: 16px; /* Font size */
+    border: 1px solid #f5af19; /* Border color matches the gradient */
 }
 
-input:hover{
-    color: white;
+/* Hover effect for input elements */
+input:hover {
+    color: white; /* Text color changes to white on hover */
 }
 
-
-
-header{
-    font-family: 'Aoboshi One';
-    font-size: 40px;
-    color: white;
-    margin-left: 640px;
-
+/* Header styling */
+header {
+    font-family: 'Aoboshi One'; /* Font family */
+    font-size: 40px; /* Font size */
+    color: white; /* Text color */
+    margin-left: 640px; /* Horizontal alignment */
 }
 
-
-.author{
-    position:fixed;
-    top: 360px;
-    left: 740px;
-    font-family: 'Aoboshi One';
-    
-    
+/* Author text styling */
+.author {
+    position: fixed; /* Fixed position relative to the viewport */
+    top: 360px; /* Vertical positioning */
+    left: 740px; /* Horizontal positioning */
+    font-family: 'Aoboshi One'; /* Font family */
 }
 
-.quote{
-    position: relative;
-    top: -340px;
-    left: 690px;
-    width: 490px;
-    height: 10px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+/* Quote text styling */
+.quote {
+    position: relative; /* Positioning relative to its container */
+    top: -340px; /* Moves up relative to its normal position */
+    left: 690px; /* Horizontal positioning */
+    width: 490px; /* Width of the quote container */
+    height: 10px; /* Height of the quote container */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; /* Font stack */
 }
 
-legend{
-    font-family: 'Playfair Display';
-    font-size: 20px;
-
+/* Styling for the legend text */
+legend {
+    font-family: 'Playfair Display'; /* Font family */
+    font-size: 20px; /* Font size */
 }
-
 
 
 
